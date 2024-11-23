@@ -162,7 +162,7 @@ span{
     letter-spacing: 0.3rem;
     font-weight: 600;
     border: 2px solid #99f9d4;
-    transition: 0.3 ease;
+    transition: 0.3 ease ease-in;
     cursor: pointer;
 }
 .btn:hover{
@@ -170,6 +170,7 @@ span{
     background-color: #19d38c;
     color: #99f9d4;
     box-shadow: 0 0 25px #99f9d4;
+    transition: 0.3 ease-in;
 }
 .typing-text{
     font-size: 34px;
